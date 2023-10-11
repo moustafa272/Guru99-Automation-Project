@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="Regression1">
+        <classes>
+            <class name="org.example.StepDefinitions.TestS01CreateAccountStep"/>
+            <class name="org.example.StepDefinitions.TestS02Login"/>
+            <class name="org.example.StepDefinitions.TestS03VerifyMobile"/>
+            <class name="org.example.StepDefinitions.TestS04CompareBetweenSonyValues"/>
+            <class name="org.example.StepDefinitions.TestS05CompareBetweenTwoItems"/>
+            <class name="org.example.StepDefinitions.TestS06VerifyPurchaseProduct"/>
+            <class name="org.example.StepDefinitions.TestS07VerifyMyOrders"/>
+            <class name="org.example.StepDefinitions.TestS08EditInOrder"/>
+            <class name="org.example.StepDefinitions.TestS09CouponCode"/>
+
+
+
+
+
+
+
+
+
+
+            <class name="org.example.StepDefinitions.TestS07VerifyMyOrders"/>
+        </classes>
+    </test>
+</suite>
